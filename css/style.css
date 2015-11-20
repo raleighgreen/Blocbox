@@ -50,6 +50,10 @@ html, body{
    .container {
      width: 750px;
    }
+   .box {
+      padding-top: 0px;
+      margin-top: 0px;
+   }
  }
  @media (min-width: 992px) {
    .container {
@@ -360,4 +364,3 @@ html, body{
      padding: 2em 0 2em 1.5em;
    }
  }
-
