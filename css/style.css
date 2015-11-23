@@ -45,17 +45,58 @@ html, body{
  }
 
  /* MEDIA QUERIES */
+ @media (min-width: 20px) and (max-width: 768px) {
+    header nav img {
+      width:100px;
+    }
+    .right-sign-div {
+      position: absolute;
+      margin-right: 0px;
+    }
+    .pricing .box {
+      margin-top: 0px;
+    }
+    footer div .logo {
+      margin-top: -7px;
+      float: right;
+      width: 100px;
+    }
+    footer .copyright-block {
+      text-align: left;
+      position: absolute;
+      width: 400px;
+      margin-top: 105px;
+    }
+    footer nav {
+      text-align: center;
+    }
 
- @media (min-width: 768px) {
+ }
+
+ @media (min-width: 769px) and (max-width: 992px) {
    .container {
      width: 750px;
    }
-   .box {
-      padding-top: 0px;
-      margin-top: 0px;
-   }
+   .right-sign-div {
+      position: absolute;
+      margin-right: 0px;
+    }
+    .pricing .box {
+      margin: 0px;
+    }
+      footer div .logo {
+      margin-top: -7px;
+      float: right;
+      width: 100px;
+    }
+    footer .copyright-block {
+      text-align: left;
+      position: absolute;
+      margin-top: 100px;
+      
+    }
  }
- @media (min-width: 992px) {
+ @media (min-width: 993px) {
    .container {
      width: 970px;
    }
@@ -67,12 +108,18 @@ html, body{
    }
    .one-fourth {
      width:21%;
-   }
+  }
+    footer nav ul li {
+    font-size: smaller;
+  }
  }
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
    }
+    footer nav ul li {
+    font-size: 14px;
+  }
  }
  @media screen (min-width: 1920px) {
    .container {
