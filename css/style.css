@@ -328,7 +328,7 @@ html, body{
  }
  .testimonials blockquote:after {
    top: 100%;
-   left: 13%;
+   left: 32px;
    border: solid transparent;
    content: " ";
    height: 0;
