@@ -45,9 +45,19 @@
        </ul>
      </div>
      <div class="settings">
-       <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
-       <p>Joey Kirk</p>
-       <a href="#"><i class="fa fa-cog"></i></a>
+      <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
+      <p>Joey Kirk</p>
+      <!--<a href="#"><i class="fa fa-cog"></i></a>-->
+      <ul class="settings-btn dropit-inverse">
+        <li>
+          <a href="#" class="fa fa-cog"></a>
+          <ul>
+            <li><a href="#"><i class="fa fa-gear"></i> Account Settings</a></li>
+            <li><a href="#"><i class="fa fa-group"></i> Collaborators</a></li>
+            <li><a href="#"><i class="fa fa-sign-out"></i> Sign Out</a></li>
+          </ul>
+        </li>
+      </ul>
      </div>
   </nav>
   <main role="main">
@@ -134,6 +144,7 @@
     <script src="js/dropit.js"></script>
     <script type="text/javascript">
       $(".menu").dropit();
+      $(".settings-btn").dropit();
       $( "#menu" ).click(function() {
       $("#left-nav").toggleClass("open", 200);
       });

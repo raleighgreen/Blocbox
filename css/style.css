@@ -556,8 +556,16 @@ html, body{
    text-align: right;
    float: right;
    margin-right:10px;
-   margin-top:8px;
+   margin-top:11px;
  }
+.settings-btn {
+  margin-top: 0px !important;
+}
+.dropit-inverse .dropit-submenu li a {
+  text-align: left;
+  font-size: 16px;
+  float: none;
+}
 
  /* CONTENT */
 
